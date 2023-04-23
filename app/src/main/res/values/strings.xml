@@ -8,4 +8,6 @@
     <string name="texto_botao_entrar">Entrar</string>
     <string name="texto_botao_deslogar">Deslogar</string>
     <string name="texto_tela_cadastro">Não tem uma conta? Cadastre agora mesmo!</string>
+    <string name="texto_tela_principal">Principal!</string>
+
 </resources>
