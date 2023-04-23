@@ -10,14 +10,82 @@
         android:id="@+id/btn_deslogar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/texto_botao_deslogar"
-        android:textSize="18sp"
-        android:textColor="@color/white"
-        android:textStyle="bold"
-        android:textAllCaps="false"
-        android:padding="15dp"
-        android:backgroundTint="@color/black"
         android:layout_gravity="center"
         android:layout_marginTop="20sp"
-        />
+        android:backgroundTint="@color/black"
+        android:padding="15dp"
+        android:text="@string/texto_botao_deslogar"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_gravarDados_DB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:backgroundTint="@color/black"
+        android:padding="15dp"
+        android:text="Gravar"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_atualizarDados_DB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:backgroundTint="@color/black"
+        android:padding="15dp"
+        android:text="Atualizar"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_lerDados_DB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:backgroundTint="@color/black"
+        android:padding="15dp"
+        android:text="Ler"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtResultadoNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtResultadoSobrenome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtResultadoIdade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:textSize="18sp" />
 </LinearLayout>
